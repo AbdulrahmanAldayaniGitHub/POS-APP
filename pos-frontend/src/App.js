@@ -5,7 +5,6 @@ import CategoryManagement from "./components/CategoryManagement";
 import SubcategoryManagement from "./components/SubcategoryManagement";
 import ProductManagement from "./components/ProductManagement";
 import POS from "./components/POS";
-// import InvoiceList from "./components/InvoiceList";
 import InvoiceHistory from "./components/InvoiceHistory.js";
 
 const App = () => {
@@ -17,7 +16,6 @@ const App = () => {
         <Route path="/subcategories" element={<SubcategoryManagement />} />
         <Route path="/products" element={<ProductManagement />} />
         <Route path="/pos" element={<POS />} />
-        {/* <Route path="/invoices" element={<InvoiceList />} /> */}
         <Route path="/invoices" element={<InvoiceHistory />} />
 
       </Routes>
