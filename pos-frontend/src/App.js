@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import BrandManagement from "./components/BrandManagement";
-import CategoryManagement from "./components/CategoryManagement";
+import CategoryManagement from "./components/CategoryManagement"; 
 import SubcategoryManagement from "./components/SubcategoryManagement";
 import ProductManagement from "./components/ProductManagement";
 import POS from "./components/POS";
