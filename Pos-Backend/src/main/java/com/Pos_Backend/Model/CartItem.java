@@ -17,6 +17,7 @@ public class CartItem {
     private String productName;
     private double price;
     private int quantity;
+
 	public Long getId() {
 		return id;
 	}
@@ -49,17 +50,5 @@ public class CartItem {
 	}
 	
 	
-	public CartItem(Long id, Long productId, String productName, double price, int quantity) {
-		super();
-		this.id = id;
-		this.productId = productId;
-		this.productName = productName;
-		this.price = price;
-		this.quantity = quantity;
-	}
-    
-	public CartItem() {
-		
-	}
        
 }
