@@ -5,7 +5,7 @@ import CategoryManagement from "./components/CategoryManagement";
 import SubcategoryManagement from "./components/SubcategoryManagement";
 import ProductManagement from "./components/ProductManagement";
 import POS from "./components/POS";
-import InvoiceList from "./components/InvoiceList";
+// import InvoiceList from "./components/InvoiceList";
 import InvoiceHistory from "./components/InvoiceHistory.js";
 
 const App = () => {
